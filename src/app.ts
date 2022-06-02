@@ -31,7 +31,7 @@ export class App {
     }
 
     private database(): void {
-        mongoose.connect('mongodb+srv://daniel:daniel123@cluster0.tlsvs.mongodb.net/?retryWrites=true&w=majority', {
+        mongoose.connect('mongodb+srv://<usuario>:<senha>@cluster0.tlsvs.mongodb.net/?retryWrites=true&w=majority', {
             useUnifiedTopology: true,
             useNewUrlParser: true
         });
